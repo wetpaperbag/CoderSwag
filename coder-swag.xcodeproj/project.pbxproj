@@ -14,6 +14,7 @@
 		6EB7FA29213B360B005E7F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB7FA27213B360B005E7F7C /* LaunchScreen.storyboard */; };
 		6EB7FA34213B42EE005E7F7C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB7FA33213B42EE005E7F7C /* CategoryCell.swift */; };
 		6ECBFEDD21638577000C1FB0 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECBFEDC21638577000C1FB0 /* ProductCell.swift */; };
+		6ECBFEDF21638925000C1FB0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECBFEDE21638925000C1FB0 /* Product.swift */; };
 		6EE4704E216227DA00163165 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE4704D216227DA00163165 /* Category.swift */; };
 		6EE47051216231D000163165 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE47050216231D000163165 /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		6EB7FA2A213B360B005E7F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EB7FA33213B42EE005E7F7C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		6ECBFEDC21638577000C1FB0 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		6ECBFEDE21638925000C1FB0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		6EE4704D216227DA00163165 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		6EE47050216231D000163165 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				6EE4704D216227DA00163165 /* Category.swift */,
+				6ECBFEDE21638925000C1FB0 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				6ECBFEDD21638577000C1FB0 /* ProductCell.swift in Sources */,
 				6EE4704E216227DA00163165 /* Category.swift in Sources */,
 				6EE47051216231D000163165 /* DataService.swift in Sources */,
+				6ECBFEDF21638925000C1FB0 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
